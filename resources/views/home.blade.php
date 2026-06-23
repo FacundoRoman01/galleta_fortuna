@@ -20,7 +20,7 @@
     <div class="card">
         <h1 style="margin-top: 0;">Descubre tu Destino</h1>
         
-        <img src="https://cdn-icons-png.flaticon.com/512/2360/2360215.png" alt="Galleta Cerrada" width="150" style="margin: 20px 0; opacity: 0.9;">
+        <img src="{{ asset('img/galletita_icono.jpg') }}" alt="Galleta Cerrada" width="150" style="margin: 20px 0; opacity: 0.9;">
         
         <br>
         

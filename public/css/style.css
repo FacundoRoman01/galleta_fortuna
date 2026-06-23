@@ -46,7 +46,7 @@ body {
 
 /* Botones */
 .btn {
-    background-color: #4b5563;
+    background-color: #2e70cc;
     color: white;
     border: none;
     padding: 12px 24px;
@@ -62,12 +62,12 @@ body {
 }
 
 .btn:hover {
-    background-color: #374151;
+    background-color: #0760f0;
 }
 
 .btn-outline {
     background-color: transparent;
-    color: #4b5563;
+    color: #2e70cc;
     border: 1px solid #d1d5db;
     padding: 8px 16px;
     font-size: 14px;
@@ -89,7 +89,7 @@ label {
     margin-bottom: 8px;
     font-size: 14px;
     font-weight: 500;
-    color: #4b5563;
+    color: #2e70cc;
 }
 
 input {
@@ -103,13 +103,13 @@ input {
 
 input:focus {
     outline: none;
-    border-color: #6b7280;
+    border-color: #2e70cc;
 }
 
 /* Mensaje de la galleta */
 .message-box {
     background: #f9fafb;
-    border-left: 4px solid #4b5563;
+    border-left: 4px solid #2e70cc;
     padding: 25px;
     margin: 25px 0;
     font-size: 22px;
