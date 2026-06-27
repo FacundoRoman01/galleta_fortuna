@@ -14,11 +14,11 @@ return new class extends Migration
         Schema::create('users', function (Blueprint $table) {
             $table->id();
             
-            // --- ESTOS SON TUS CAMBIOS ---
-            $table->string('username')->unique(); // Reemplazamos 'name' por 'username' y lo hacemos único
+          
+            $table->string('username')->unique(); 
             $table->string('email')->unique();
-            $table->date('birthdate'); // Agregamos la fecha de nacimiento
-            // -----------------------------
+            $table->date('birthdate'); 
+            
             
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');

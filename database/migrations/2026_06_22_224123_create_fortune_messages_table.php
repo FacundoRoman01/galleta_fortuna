@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('fortune_messages', function (Blueprint $table) {
             $table->id();
-            $table->text('content'); // Acá se guarda la frase
+            $table->text('content'); 
             $table->timestamps();
         });
     }
